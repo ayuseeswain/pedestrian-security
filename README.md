@@ -50,18 +50,18 @@ The code for sensor fusion and spatial analysis is contained within a single Jup
 9. Start Carla by running CarlaUE4.exe from the directory where the Carla distribution was unzipped.
 
 10. Generate traffic by running the following Python script in the pythonapi\examples directory. You will now be able to see vehicles moving in the city.
-   ```shell
-   python generate_traffic.py
+    ```shell
+    python generate_traffic.py
 
 11. To install YOLOv8, ensure that PyTorch is available and CUDA is enabled.
-   ```shell
-   import torch
-   print(torch.__version__)
-   print(torch.cuda.is_available())
+    ```shell
+    import torch
+    print(torch.__version__)
+    print(torch.cuda.is_available())
 
 14. Pip install the ultralytics package including all requirements in a Python>=3.8 environment with PyTorch>=1.8.
-   ```shell
-   pip install ultralytics
+    ```shell
+    pip install ultralytics
 
 15. For more information regarding the model and model training, visit below links:
     Docs: https://docs.ultralytics.com
