@@ -21,9 +21,7 @@ Utilizes both the **Carla Autonomous Driving Simulator** and the `simple_image_d
 ### Codebase
 The code for sensor fusion and spatial analysis is contained within a single Jupyter Notebook (`.ipynb`) file, making it easier to understand the workflow and methodologies employed in this project.
 
-### Installation-Carla
-
-To set up Carla and the required Python environment, follow these steps:
+### Installation
 
 1. Download the Carla binaries and additional maps for Windows from [Carla Releases](https://github.com/carla-simulator/carla/releases).
 
@@ -55,17 +53,7 @@ To set up Carla and the required Python environment, follow these steps:
    ```shell
    python generate_traffic.py
 
-### Installation-YOLOv8
-
-To install YOLOv8, follow these steps:
-
-11. Activate your Conda environment if it's not already activated.
-   ```shell
-   conda activate yolov8_custom
-
-12. Navigate to your project directory.
-
-13. Ensure that PyTorch is available and CUDA is enabled.
+11. To install YOLOv8, ensure that PyTorch is available and CUDA is enabled.
    ```shell
    import torch
    print(torch.__version__)
@@ -75,7 +63,7 @@ To install YOLOv8, follow these steps:
    ```shell
    pip install ultralytics
 
-   For more information regarding the model and model training, visit below links:
-   Docs: https://docs.ultralytics.com
-   Community: https://community.ultralytics.com
-   GitHub: https://github.com/ultralytics/ultralytics
+15. For more information regarding the model and model training, visit below links:
+    Docs: https://docs.ultralytics.com
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
