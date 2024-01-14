@@ -59,19 +59,19 @@ To set up Carla and the required Python environment, follow these steps:
 
 To install YOLOv8, follow these steps:
 
-1. Activate your Conda environment if it's not already activated.
+11. Activate your Conda environment if it's not already activated.
    ```shell
    conda activate yolov8_custom
 
-2. Navigate to your project directory.
+12. Navigate to your project directory.
 
-3. Ensure that PyTorch is available and CUDA is enabled.
+13. Ensure that PyTorch is available and CUDA is enabled.
    ```shell
    import torch
    print(torch.__version__)
    print(torch.cuda.is_available())
 
-4. Pip install the ultralytics package including all requirements in a Python>=3.8 environment with PyTorch>=1.8.
+14. Pip install the ultralytics package including all requirements in a Python>=3.8 environment with PyTorch>=1.8.
    ```shell
    pip install ultralytics
 
