@@ -21,7 +21,7 @@ Utilizes both the **Carla Autonomous Driving Simulator** and the `simple_image_d
 ### Codebase
 The code for sensor fusion and spatial analysis is contained within a single Jupyter Notebook (`.ipynb`) file, making it easier to understand the workflow and methodologies employed in this project.
 
-### Installation
+### Installation-Carla
 
 To set up Carla and the required Python environment, follow these steps:
 
@@ -54,6 +54,8 @@ To set up Carla and the required Python environment, follow these steps:
 10. Generate traffic by running the following Python script in the pythonapi\examples directory. You will now be able to see vehicles moving in the city.
    ```shell
    python generate_traffic.py
+
+### Installation-YOLOv8
 
 To install YOLOv8, follow these steps:
 
