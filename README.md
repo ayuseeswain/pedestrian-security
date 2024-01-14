@@ -63,7 +63,7 @@ The code for sensor fusion and spatial analysis is contained within a single Jup
     ```shell
     pip install ultralytics
 
-15. For more information regarding the model and model training, visit below links:
-    Docs: https://docs.ultralytics.com
-    Community: https://community.ultralytics.com
-    GitHub: https://github.com/ultralytics/ultralytics
+15. For more information regarding the model and model training, visit the following links:
+- [Ultralytics Documentation](https://docs.ultralytics.com)
+- [Ultralytics Community](https://community.ultralytics.com)
+- [Ultralytics Repository](https://github.com/ultralytics/ultralytics)
