@@ -59,9 +59,17 @@ The code for sensor fusion and spatial analysis is contained within a single Jup
     print(torch.__version__)
     print(torch.cuda.is_available())
 
-14. Pip install the ultralytics package including all requirements in a Python>=3.8 environment with PyTorch>=1.8.
+12. Pip install the ultralytics package including all requirements in a Python>=3.8 environment with PyTorch>=1.8.
     ```shell
     pip install ultralytics
+
+13. To train the YOLOv8, run the following script on command prompt:
+    ```shell
+    yolo task=detect mode=train epochs=300 data=data_custom.yaml model=yolov8m.pt imgsz=640 batch=6
+
+14. Once the training is over, go to \runs\detect\train\weights, copy the best.pt model to the source directory and run the following script on command prompt:
+    ```shell
+    yolo task=detect mode=predict model=best.pt show=True conf=0.5 source="<path\to\test\image\file\or\folder>" save_txt=True
 
 15. For more information regarding the model and model training, visit the following links:
 - [Ultralytics Documentation](https://docs.ultralytics.com)
