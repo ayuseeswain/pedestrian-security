@@ -19,7 +19,7 @@ Involves post-processing of sensor fusion data, including statistics-based spati
 Utilizes both the **Carla Autonomous Driving Simulator** and the `simple_image_download` Python library to generate dataset of pedestrians and posters. The dataset provides a diverse range of scenarios and conditions, offering robust training and testing material for our models.
 
 ### Codebase
-The code for sensor fusion and spatial analysis is contained within a single Jupyter Notebook (`.ipynb`) file, making it easier to understand the workflow and methodologies employed in this project.
+The code for sensor fusion and spatial analysis is contained within a single Jupyter Notebook (`sensor_fusion_and_spatial_analysis.ipynb`) file, making it easier to understand the workflow and methodologies employed in this project.
 
 ### Installation
 
